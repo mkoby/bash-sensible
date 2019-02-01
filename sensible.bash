@@ -61,7 +61,7 @@ shopt -s cdspell
 # This defines where cd looks for targets
 # Add the directories you want to have fast access to, separated by colon
 # Ex: CDPATH=".:~:~/projects" will look for targets in the current working directory, in home and in the ~/projects folder
-CDPATH=".:~/iberon:~/git"
+CDPATH=".:~/sources/iberon:~/git"
 
 # This allows you to bookmark your favorite places across the file system
 # Define a variable containing a path and you will be able to cd into it regardless of the directory you're in
@@ -71,7 +71,8 @@ shopt -s cdable_vars
 # export dotfiles="$HOME/dotfiles"
 # export projects="$HOME/projects"
 # export documents="$HOME/Documents"
- export downloads="$HOME/Downloads"
- export dropbox="$HOME/Dropbox"
- export iberon="$HOME/iberon"
+export downloads="$HOME/Downloads"
+export dropbox="$HOME/Dropbox"
+export iberon="$HOME/sources"
+export iberon="$HOME/sources/iberon"
 # export git="$HOME/git"
